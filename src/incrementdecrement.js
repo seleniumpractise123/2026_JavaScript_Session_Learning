@@ -40,5 +40,13 @@ console.log(n); //2
 //4.pre(first/before) decrement:
 let t = 2;
 let r = --t;
-console.log(t);
-console.log(r);
+console.log(t); //1
+console.log(r); //1
+
+let bill = 100;
+console.log(--bill); //99
+console.log(bill); //99
+
+let amt = 10;
+console.log(amt--); //10
+console.log(amt); //9
